@@ -1,4 +1,21 @@
+import { useEffect } from 'react';
+
 export default function Navbar() {
+   useEffect(() => {
+      const stickyTop = document.querySelector('.sticky-top');
+      const offcanvas = document.querySelector('.offcanvas');
+
+      const handleHamburgerClick = () => {
+         stickyTop.style.overflow = 'visible';
+      };
+      const handleBtnCloseClick = () => {
+         stickyTop.style.overflow = 'hidden';
+      };
+
+      offcanvas.addEventListener('show.bs.offcanvas', handleHamburgerClick);
+      offcanvas.addEventListener('hidden.bs.offcanvas', handleBtnCloseClick);
+   }, []);
+
    return (
       <nav className='navbar navbar-expand-md sticky-top mynavbar'>
          <div className='container'>

@@ -1,6 +1,6 @@
 export default function Navbar() {
    return (
-      <nav className='navbar navbar-expand-md bg-body-tertiary sticky-top mynavbar'>
+      <nav className='navbar navbar-expand-md bg-transparent sticky-top mynavbar'>
          <div className='container'>
             <a className='navbar-brand' href='#'>
                Dameh

@@ -1,8 +1,11 @@
+import { Fragment } from 'react';
+import Hero from './pages/hero';
+
 function App() {
    return (
-      <>
-         <h1>App Page</h1>
-      </>
+      <Fragment>
+         <Hero />
+      </Fragment>
    );
 }
 

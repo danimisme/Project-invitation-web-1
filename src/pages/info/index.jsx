@@ -55,7 +55,7 @@ export default function InfoPage() {
                         </div>
                      </div>
                      <div className='card-footer'>
-                        Saat acara akad diharapkan untuk kondusif untuk menjaga kekhidmatan dan kekhusyuan seluruh prosesi.
+                        Saat acara resepsi diharapkan untuk kondusif untuk menjaga kekhidmatan dan kekhusyuan seluruh prosesi.
                      </div>
                   </div>
                </div>

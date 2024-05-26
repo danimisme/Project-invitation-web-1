@@ -3,6 +3,7 @@ import Hero from './pages/hero';
 import Navbar from './components/molekuls/Navbar';
 import HomePage from './pages/home';
 import InfoPage from './pages/info/index';
+import LoveStory from './pages/loveStory';
 
 function App() {
    return (
@@ -11,6 +12,7 @@ function App() {
          <Navbar />
          <HomePage />
          <InfoPage />
+         <LoveStory />
       </Fragment>
    );
 }

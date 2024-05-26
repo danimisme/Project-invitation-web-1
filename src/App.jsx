@@ -4,6 +4,7 @@ import Navbar from './components/molekuls/Navbar';
 import HomePage from './pages/home';
 import InfoPage from './pages/info/index';
 import LoveStory from './pages/loveStory';
+import GalleryPage from './pages/gallery';
 
 function App() {
    return (
@@ -13,6 +14,7 @@ function App() {
          <HomePage />
          <InfoPage />
          <LoveStory />
+         <GalleryPage />
       </Fragment>
    );
 }

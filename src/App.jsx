@@ -6,6 +6,7 @@ import InfoPage from './pages/info/index';
 import LoveStory from './pages/loveStory';
 import GalleryPage from './pages/gallery';
 import Rsvp from './pages/rsvp';
+import Gifts from './pages/gifts';
 
 function App() {
    return (
@@ -17,6 +18,7 @@ function App() {
          <LoveStory />
          <GalleryPage />
          <Rsvp />
+         <Gifts />
       </Fragment>
    );
 }

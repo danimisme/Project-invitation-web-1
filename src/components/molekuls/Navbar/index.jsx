@@ -41,7 +41,7 @@ export default function Navbar() {
                </div>
                <div className='offcanvas-body'>
                   <div className='navbar-nav ms-auto'>
-                     <a className='nav-link active' href='#home'>
+                     <a className='nav-link active' href='home'>
                         Home
                      </a>
                      <a className='nav-link' href='#info'>

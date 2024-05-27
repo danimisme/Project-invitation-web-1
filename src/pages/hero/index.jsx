@@ -1,8 +1,10 @@
 import CountDown from '../../components/molekuls/CountDown';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
    const newDate = new Date('June 1, 2024').getTime();
    const rootElement = document.querySelector(':root');
+   // const navigate = useNavigate();
 
    function disableScroll() {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -18,7 +20,14 @@ export default function Hero() {
    function enableScroll() {
       window.onscroll = function () {
          rootElement.style.scrollBehavior = 'smooth';
+         autoPlay();
       };
+   }
+
+   function autoPlay() {
+      const song = document.querySelector('#song');
+      console.log(song);
+      song.play();
    }
 
    disableScroll();
@@ -30,9 +39,9 @@ export default function Hero() {
             <h1>Dani & Halimah</h1>
             <p>Akan melangsungkan resepsi pernikahan dalam:</p>
             <CountDown newDate={newDate} />
-            <a href='#home' className='btn btn-lg mt-4' onClick={enableScroll}>
+            <Link to='#home' className='btn btn-lg mt-4' onClick={enableScroll}>
                Lihat undangan
-            </a>
+            </Link>
          </main>
       </section>
    );

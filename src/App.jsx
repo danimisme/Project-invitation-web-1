@@ -8,6 +8,7 @@ import GalleryPage from './pages/gallery';
 import Rsvp from './pages/rsvp';
 import Gifts from './pages/gifts';
 import Footer from './components/molekuls/Footer';
+import Audio from './components/molekuls/Audio';
 
 function App() {
    return (
@@ -21,6 +22,7 @@ function App() {
          <Rsvp />
          <Gifts />
          <Footer />
+         <Audio />
       </Fragment>
    );
 }

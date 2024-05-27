@@ -7,6 +7,7 @@ import LoveStory from './pages/loveStory';
 import GalleryPage from './pages/gallery';
 import Rsvp from './pages/rsvp';
 import Gifts from './pages/gifts';
+import Footer from './components/molekuls/Footer';
 
 function App() {
    return (
@@ -19,6 +20,7 @@ function App() {
          <GalleryPage />
          <Rsvp />
          <Gifts />
+         <Footer />
       </Fragment>
    );
 }

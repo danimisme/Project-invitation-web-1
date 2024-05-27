@@ -13,7 +13,7 @@ export default function LoveStory() {
                <div className='col'>
                   <ul className='timeline'>
                      <li>
-                        <div className='timeline-image' style={{ backgroundImage: 'url(https://source.unsplash.com/300x300/?couple)' }}></div>
+                        <div className='timeline-image' style={{ backgroundImage: 'url(https://placehold.co/600x400/png)' }}></div>
                         <div className='timeline-panel'>
                            <div className='timeline-heading'>
                               <h3>Lorem ipsum dolor sit amet.</h3>
@@ -25,7 +25,7 @@ export default function LoveStory() {
                         </div>
                      </li>
                      <li className='timeline-inverted'>
-                        <div className='timeline-image' style={{ backgroundImage: 'url(https://source.unsplash.com/300x300/?travel)' }}></div>
+                        <div className='timeline-image' style={{ backgroundImage: 'url(https://placehold.co/600x400/png)' }}></div>
                         <div className='timeline-panel'>
                            <div className='timeline-heading'>
                               <h3>Lorem ipsum dolor sit amet.</h3>
@@ -37,7 +37,7 @@ export default function LoveStory() {
                         </div>
                      </li>
                      <li>
-                        <div className='timeline-image' style={{ backgroundImage: 'url(https://source.unsplash.com/300x300/?story)' }}></div>
+                        <div className='timeline-image' style={{ backgroundImage: 'url(https://placehold.co/600x400/png)' }}></div>
                         <div className='timeline-panel'>
                            <div className='timeline-heading'>
                               <h3>Lorem ipsum dolor sit amet.</h3>

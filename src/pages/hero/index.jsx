@@ -1,7 +1,28 @@
 import CountDown from '../../components/molekuls/CountDown';
 
 export default function Hero() {
-   const newDate = new Date('june 1, 2024').getTime();
+   const newDate = new Date('June 1, 2024').getTime();
+   const rootElement = document.querySelector(':root');
+
+   function disableScroll() {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+      window.onscroll = function () {
+         window.scrollTo(scrollLeft, scrollTop);
+      };
+
+      rootElement.style.scrollBehavior = 'auto';
+   }
+
+   function enableScroll() {
+      window.onscroll = function () {
+         rootElement.style.scrollBehavior = 'smooth';
+      };
+   }
+
+   disableScroll();
+
    return (
       <section id='#hero' className='hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white'>
          <main>
@@ -9,7 +30,7 @@ export default function Hero() {
             <h1>Dani & Halimah</h1>
             <p>Akan melangsungkan resepsi pernikahan dalam:</p>
             <CountDown newDate={newDate} />
-            <a href='#undangan' className='btn btn-lg mt-4'>
+            <a href='#home' className='btn btn-lg mt-4' onClick={enableScroll}>
                Lihat undangan
             </a>
          </main>

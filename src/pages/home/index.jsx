@@ -23,7 +23,7 @@ export default function HomePage() {
                         </p>
                      </div>
                      <div className='col-4'>
-                        <img src='https://source.unsplash.com/100x100/?couple' alt='' className='img-responsive rounded-circle' />
+                        <img src='https://placehold.co/300' alt='' className='img-responsive rounded-circle' />
                      </div>
                   </div>
                </div>
@@ -33,7 +33,7 @@ export default function HomePage() {
                <div className='col-lg-6'>
                   <div className='row'>
                      <div className='col-4'>
-                        <img src='https://source.unsplash.com/100x100/?couple' alt='' className='img-responsive rounded-circle' />
+                        <img src='https://placehold.co/300' alt='' className='img-responsive rounded-circle' />
                      </div>
                      <div className='col-8'>
                         <h3>Nur Halimah</h3>

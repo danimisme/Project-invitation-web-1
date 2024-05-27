@@ -11,19 +11,19 @@ export default function GalleryPage() {
             </div>
             <div className='row row-cols-md-4 row-cols-sm-3 row-cols-2 justify-content-center'>
                <div className='col mt-3'>
-                  <img src='https://source.unsplash.com/300x300/?couple' alt='lorem' className='img-fluid w-100x rounded' />
+                  <img src='https://placehold.co/600x400/png' alt='lorem' className='img-fluid w-100x rounded' />
                </div>
                <div className='col mt-3'>
-                  <img src='https://source.unsplash.com/300x300/?story' alt='lorem' className='img-fluid w-100 rounded' />
+                  <img src='https://placehold.co/600x400/png' alt='lorem' className='img-fluid w-100 rounded' />
                </div>
                <div className='col mt-3'>
-                  <img src='https://source.unsplash.com/300x300/?travel' alt='lorem' className='img-fluid w-100 rounded' />
+                  <img src='https://placehold.co/600x400/png' alt='lorem' className='img-fluid w-100 rounded' />
                </div>
                <div className='col mt-3'>
-                  <img src='https://source.unsplash.com/300x300/?couple' alt='lorem' className='img-fluid w-100 rounded' />
+                  <img src='https://placehold.co/600x400/png' alt='lorem' className='img-fluid w-100 rounded' />
                </div>
                <div className='col mt-3'>
-                  <img src='https://source.unsplash.com/300x300/?travel' alt='lorem' className='img-fluid w-100 rounded' />
+                  <img src='https://placehold.co/600x400/png' alt='lorem' className='img-fluid w-100 rounded' />
                </div>
             </div>
          </div>
